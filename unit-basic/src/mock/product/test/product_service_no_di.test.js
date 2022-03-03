@@ -23,7 +23,7 @@ describe('productService', () => {
     fetchItems.mockClear();
     ProductClient.mockClear();
     */
-  });
+  }); 
 
   it('should filter out only available items', async () => {
     const items = await productService.fetchAvailableItems();

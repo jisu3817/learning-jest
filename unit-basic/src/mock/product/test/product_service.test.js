@@ -1,4 +1,4 @@
-const ProductService = require('../product_service_no_di.js');
+const ProductService = require('../product_service.js');
 const StubProductClient = require('./stub_product_client.js');
 
 describe('productService - stub', () => {
